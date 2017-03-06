@@ -8,6 +8,7 @@ display it over and over. Each string generated should be unique.
 Create a procedure (UserInt) that asks for an unsigned integer input (N) from a user. The
 procedure must pass this integer back to the calling procedure as an argument (this means in a
 register).
+
 Create a procedure (RandStr) that generates a string of length L, where L is between 5 and 25,
 containing random CAPITAL letters. When calling the RandStr procedure, pass the value of N
 (from UserInt) in ECX, and pass the offset of an array of bytes in EAX. This array will hold the
