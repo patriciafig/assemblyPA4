@@ -4,6 +4,7 @@ Filename: RString.asm
 Write a program that uses both procedures (as described below), so that the input from the
 user determines how many times to generate a random string. Do not generate 1 string and
 display it over and over. Each string generated should be unique.
+
 •	Create a procedure (UserInt) that asks for an unsigned integer input (N) from a user. The
 procedure must pass this integer back to the calling procedure as an argument (this means in a register).
 
